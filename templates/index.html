@@ -2,8 +2,16 @@
 
 {% block content %}<!-- Content -->
 
+  <img class="logo" src="{{ url_for('static', filename='images/brickfacts.svg') }}" />
+
+  <div class="fact">
   {{ fact }}
   {{ views }} Other people have been marvelled by these awesome brick facts.
+  </div>
+
+  <div class="cent">
+  <img class="brick" src="{{ url_for('static', filename='images/brick_circ.svg') }}" />
+  </div>
 
 {% endblock %}<!-- / Content -->
 
