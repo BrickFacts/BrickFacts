@@ -21,6 +21,10 @@ def api():
   fact =random.choice(facts)
   return jsonify({ 'fact' : fact })
 
+@app.route("/apiman")
+def apiman():
+  return render_template('api.html')
+
 if __name__ == "__main__":
   app.run()
 
