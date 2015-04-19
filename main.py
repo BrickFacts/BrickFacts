@@ -38,6 +38,12 @@ def respond():
   resp.message(message)
   return str(resp)
 
+@app.route("/joke", methods=['GET', 'POST'])
+def joke():
+  jokes = open('jokes.txt').read().splitlines()
+  joke = random.choice(jokes)
+  return jsonify({ 'joke' : joke })
+
 
 def rand_fact():
   """ The crown jewels!!!! """
