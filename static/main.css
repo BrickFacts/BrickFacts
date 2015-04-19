@@ -6,12 +6,18 @@ html, body {
   /*background-image: url(http://i.imgur.com/MQHYB.jpg);*/
   padding: 0 auto;
   margin: 0;
+
+  color: #FFF;
+  font-family: 'Helvetica';
+}
+
+
+h1, h2, h3, h4, h5 {
+  color: #FFF;
 }
 
 h1 {
-  font-family: 'Helvetica';
-  font-size: 3em;
-  color: #FFF;
+  font-size: 2.0em;
 }
 
 .api{
@@ -41,7 +47,6 @@ h1 {
 }
 
 .fact, .views {
-  font-family: 'Helvetica';
   text-align: center;
   padding: 10px 10px 15px 10px;
   display: block;
@@ -49,15 +54,15 @@ h1 {
   color: #fff;
   background:rgba(255,255,255,0.2);
   border-radius: 5px;
+  font-size: 1.0em;
 }
 
 .fact {
-  font-size: 1.0em;
+  font-size: 1.3em;
   margin: -30px 0 10px 0;
 }
 
 .views {
-  font-size: 12pt;
 }
 
 .brick {
@@ -68,14 +73,23 @@ h1 {
 }
 
 .footer {
-  width:100%;
-  position: relative;
-  z-index: 10;
+  padding: 20px 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
 }
 
-.footer img {
-  width: 100%;
+.footer a {
+  padding: 0 20px;
 }
+
+.footer .right {
+  padding: 0 20px;
+  font-size: 1.3em;
+  float: right;
+}
+
 .brick {
     width: 50%;
     -webkit-transition: all .2s ease-in-out;

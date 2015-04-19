@@ -38,7 +38,17 @@
 
 
 {% block footer %}
-
+<div class="footer">
+  <a class="api" href="{{ url_for('apiman') }}">
+    Brick Facts for developers
+  </a>
+  <a class="api" href="{{ url_for('apiman') }}">
+    Get the pebble app
+  </a>
+  <div class="right">
+    Made by nerds, for nerds
+  </div>
+</div>
 {% endblock %}
 
 
@@ -57,10 +67,6 @@
     </script>
   {% endfor %}
 {% endblock %}
-
-<div class="footer">
-<!--<img src="{{ url_for('static', filename='images/buildings.svg') }}" />-->
-</div>
 
 </body>
 
