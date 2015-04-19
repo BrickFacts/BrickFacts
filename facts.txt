@@ -1,4 +1,3 @@
-There are 14,673,565 bricks at Rochester Institute of Technology.
 mirrors.rit.edu hosts over 13 Terabytes of Linux Package Files.
 RIT Alumni number more than 114,000 worldwide.
 An umbrella was mistaken as a gun and caused the campus to go into lockdown in 2012.
@@ -14,7 +13,6 @@ The original trademarked Garbage Plate is from Nick Taou's.
 Rochester once had an underground rapid transit system, called the Rochester Subway.
 The Quarter Mile is actually .41 miles.
 In the 1840s, baby shoes were first developed in Rochester by Jesse Hatch.
-In 1872, Susan B. Anthony was the first American woman to vote in a presidential election and be arrested for doing so.
 Rochester has the least expensive real estate market out of all major New York cities, with a median housing price of only $83,000.
 It's actually FMS who puts the soap in the fountain daily.
 Rochester has the highest per capita deaf population in the nation.
@@ -23,3 +21,7 @@ There are no unpainted rocks on campus. At least not for long.
 The Sentinal cost $800,000 to create.
 The Sentinal is 73 feet tall.
 RIT has the Guinness World Record for Mud Tug of War.
+RIT's acceptance rate is 60%.
+The founder of jQuery, John Resig, is an RIT Alumni.
+There are 14,673,565 bricks at Rochester Institute of Technology.
+RIT has a 2-megawatt solar array that will be operational by the end of April, 2015.

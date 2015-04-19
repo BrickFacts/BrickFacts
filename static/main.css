@@ -17,18 +17,18 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
-  font-size: 2.0em;
+  font-size: 1em;
 }
 
 .api{
   color: #FFF;
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 .content {
   margin: 0 auto;
   color: #FFF;
-  font-size:1.5em;
+  font-size:1em;
 }
 
 .container {
@@ -38,28 +38,27 @@ h1 {
   max-width:600px;
 }
 
-
-
 .logo {
-  width: 70%;
+  width: 40%;
   display: block;
   margin: 0 auto;
+  padding-top: 10px;
 }
 
 .fact, .views {
   text-align: center;
-  padding: 10px 10px 15px 10px;
+  padding: 1em;
   display: block;
   margin: 25px auto;
   color: #fff;
-  background:rgba(255,255,255,0.2);
+  background:rgba(255,255,255,0.3);
   border-radius: 5px;
   font-size: 1.0em;
 }
 
 .fact {
-  font-size: 1.3em;
-  margin: -15px 0 10px 0;
+  font-size: 1em;
+  margin: 10px;
 }
 
 .views {
@@ -73,10 +72,10 @@ h1 {
 }
 
 .footer {
-  padding: 20px 0;
-  background-color: rgba(0, 0, 0, 0.2);
-  width: 100%;
   position: absolute;
+  padding: 20px 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
   bottom: 0px;
 }
 
@@ -86,12 +85,12 @@ h1 {
 
 .footer .right {
   padding: 0 20px;
-  font-size: 1.3em;
+  font-size: 1em;
   float: right;
 }
 
 .brick {
-    width: 50%;
+    width: 30%;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     -o-transition: all .2s ease-in-out;
