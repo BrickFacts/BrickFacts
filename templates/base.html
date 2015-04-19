@@ -1,0 +1,48 @@
+<html>
+<head>
+  <title>
+    {% block title %}Brick Facts{% endblock %}
+  </title>
+  {% block head %}
+  {% endblock %}
+</head>
+
+<body>
+
+<main class="content">
+
+{% block content %}
+
+  <div class="container">
+      {% block page_content %}
+      {% endblock %}
+  </div>
+
+{% endblock %}
+</main><!-- / content -->
+
+
+{% block footer %}
+
+{% endblock %}
+
+
+{% block scripts %}
+
+<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">
+<link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">
+
+{% endblock %}
+
+  <!-- has to be done after scripts so dialogs can work -->
+{% block alerts %}
+  {% for message in get_flashed_messages() %}
+    <script type="text/javascript">
+      toast('{{ message }}', 5000);
+    </script>
+  {% endfor %}
+{% endblock %}
+
+</body>
+
+</html>
