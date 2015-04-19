@@ -13,10 +13,7 @@ views = 0
 
 @app.route("/")
 def index():
-  global views
-  views += 1
   fact = rand_fact()
-
   return render_template('index.html', fact=fact, views=views)
 
 @app.route("/api")
@@ -49,6 +46,8 @@ def rand_fact():
   """ The crown jewels!!!! """
   facts = open('facts.txt').read().splitlines()
   fact = random.choice(facts)
+  global views
+  views += 1
   return fact
 
 
