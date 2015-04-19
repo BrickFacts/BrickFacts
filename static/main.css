@@ -1,6 +1,6 @@
 html, body {
   height: 100%;
-  background: url("/static/images/buildings.svg")  no-repeat bottom;
+  background: url("//storage.googleapis.com/web-static/buildings.svg")  no-repeat bottom;
   background-color: #41C6E5;
   background-size: 100%;
   /*background-image: url(http://i.imgur.com/MQHYB.jpg);*/
@@ -97,9 +97,9 @@ h1 {
     -o-transition: all .2s ease-in-out;
     -ms-transition: all .2s ease-in-out;
 }
- 
+
 .transition {
-    -webkit-transform: scale(1.2) rotate(360deg); 
+    -webkit-transform: scale(1.2) rotate(360deg);
     -moz-transform: scale(1.2) rotate(360deg);
     -o-transform: scale(1.2) rotate(360deg);
     transform: scale(1.2) rotate(360deg);

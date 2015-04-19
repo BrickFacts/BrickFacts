@@ -7,6 +7,7 @@ import random, twilio.twiml
 app = Flask(__name__)
 app.debug = True
 app.config['SECRET_KEY'] = 'G00DB33F'
+app.config['DEBUG'] = True
 
 views = 0
 
@@ -55,4 +56,3 @@ class PhoneForm(Form):
 
 if __name__ == "__main__":
   app.run()
-

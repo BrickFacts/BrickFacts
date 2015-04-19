@@ -1,16 +1,15 @@
 {% extends "base.html" %}
-{% from "_forms.html" import render_field %}
 
 {% block page_content %}<!-- Content -->
 
-  <img class="logo" src="{{ url_for('static', filename='images/brickfacts.svg') }}" />
+  <img class="logo" src="//storage.googleapis.com/web-static/brickfacts.svg" />
 
   <div class="fact">
     {{ fact }}
   </div>
 
   <a href="{{ url_for('index') }}">
-    <img class="brick" src="{{ url_for('static', filename='images/brick_circ.svg') }}" />
+    <img class="brick" src="//storage.googleapis.com/web-static/brick_circ.svg" />
   </a>
 
   <div class="views">
