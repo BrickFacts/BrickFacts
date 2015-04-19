@@ -1,5 +1,9 @@
 html, body {
-  background: #41C6E5;
+  height: 100%;
+  background: url("/static/images/buildings.svg")  no-repeat bottom;
+  background-color: #41C6E5;
+  background-size: 100%;
+  /*background-image: url(http://i.imgur.com/MQHYB.jpg);*/
   padding: 0 auto;
   margin: 0;
 }
@@ -16,13 +20,19 @@ h1 {
 }
 
 .content {
-  width: 50%;
-  height: 100%;
-  max-width:600px;
   margin: 0 auto;
   color: #FFF;
   font-size:1.5em;
 }
+
+.container {
+  margin: 0 auto;
+  width: 50%;
+  height: auto;
+  max-width:600px;
+}
+
+
 
 .logo {
   width: 70%;
@@ -42,7 +52,7 @@ h1 {
 }
 
 .fact {
-  font-size: 1.5em;
+  font-size: 1.0em;
   margin: -30px 0 10px 0;
 }
 
@@ -58,10 +68,13 @@ h1 {
 }
 
 .footer {
+  width:100%;
+  position: relative;
+  z-index: 10;
+}
+
+.footer img {
   width: 100%;
-  margin: -100px 0;
-  position: absolute;
-  bottom: 0;
 }
 .brick {
     width: 50%;

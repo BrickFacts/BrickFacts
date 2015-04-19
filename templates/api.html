@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block title %}Brick Facts - API{% endblock %}
+
+{% block content %}<!-- Content -->
+
+<a href="{{ url_for('index') }}">
+  <img class="logo" src="{{ url_for('static', filename='images/brickfacts.svg') }}" />
+</a>
+
+  <h1>API</h1>
+
+  Add our handy brick facts to your app, blog, or bbs!
+  Just access our RESTful API at <i>brickfacts.me/api</i>
+
+{% endblock %}<!-- / Content -->
+
+{% block footer %}
+{{ super() }}
+{% endblock %}
