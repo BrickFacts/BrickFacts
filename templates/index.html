@@ -5,13 +5,19 @@
   <img class="logo" src="{{ url_for('static', filename='images/brickfacts.svg') }}" />
 
   <div class="fact">
-  {{ fact }}
-  {{ views }} Other people have been marvelled by these awesome brick facts.
+    {{ fact }}
   </div>
 
   <div class="cent">
+<a href="{{ url_for('index') }}">
   <img class="brick" src="{{ url_for('static', filename='images/brick_circ.svg') }}" />
+</a>
   </div>
+
+  <div class="views">
+    {{ views }} Other people have been marvelled by these awesome brick facts.
+  </div>
+
 
 {% endblock %}<!-- / Content -->
 
